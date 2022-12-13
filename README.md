@@ -1,1 +1,1 @@
-# rsschool-cv
+https://evilique.github.io/rsschool-cv/cv
