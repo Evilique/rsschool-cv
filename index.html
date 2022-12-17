@@ -5,12 +5,186 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>D. Stepanov</title>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-
+  <header class="header">
+    <div class="header__container container">
+      <a href="https://rs.school/js/" class="header__logo">
+        <img src="assets/svg/rss.svg" alt="logo rs school" height="50">
+      </a>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#contacts" class="nav__link">Contacts</a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About Me</a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">My skills</a>
+          </li>
+          <li class="nav__item">
+            <a href="#examples" class="nav__link">Code examples</a>
+          </li>
+          <li class="nav__item">
+            <a href="#experience" class="nav__link">Work experience</a>
+          </li>
+          <li class="nav__item">
+            <a href="#languages" class="nav__link">Languages</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="main__container container">
+      <section class="info">
+        <div class="info__container">
+          <img class="info__avatar" src="assets/img/avatar.jpg" alt="my-avatar" width="200" height="200">
+          <div class="info__wrapper">
+            <h1 class="info__header">Danila Stepanov</h1>
+            <h2 class="info__descr">Junior front-end developer</h2>
+          </div>
+        </div>
+      </section>
+      <section class="contacts" id="contacts">
+        <div class="contacts__container">
+          <h2 class="contacts__header">Contacts</h2>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <img class="contacts__img" src="assets/svg/icons/phone.svg" alt="phone-icon" width="30">
+              <a href="#" class="contacts__link">+7 999 462 59 93</a>
+            </li>
+            <li class="contacts__item">
+              <img class="contacts__img" src="assets/svg/icons/email.svg" alt="email-icon" width="30">
+              <a href="mailto:stepanov0204@gmail.com" class="contacts__link">stepanov0204@gmail.com</a>
+            </li>
+            <li class="contacts__item">
+              <img class="contacts__img" src="assets/svg/icons/telegram.svg" alt="telegram-icon" width="30">
+              <a href="https://t.me/evilique" class="contacts__link">@Evilique</a>
+            </li>
+            <li class="contacts__item">
+              <img class="contacts__img" src="assets/svg/icons/discord.svg" alt="discord-icon" width="30">
+              <a href="#" class="contacts__link">Danila Stepanov (@Evilique)</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="about" id="about">
+        <div class="about__container">
+          <h2 class="about__header">About Me</h2>
+          <p class="about__descr">I am always happy to learn new technologies, develop in IT. I know html, css, js at a
+            basic level. I communicate well with people, I like to learn. My goal is to learn a pure JavaScript at a
+            good level and learn the React library.</p>
+        </div>
+      </section>
+      <section class="skills" id="skills">
+        <div class="skills__container">
+          <h2 class="skills__header">My skills</h2>
+          <ul class="skills__list">
+            <li class="skills__item">
+              <img src="assets/svg/icons/html5.svg" alt="html5-icon" width="50">
+              <span>HTML5</span>
+            </li>
+            <li class="skills__item">
+              <img src="assets/svg/icons/css3.svg" alt="css3-icon" width="50">
+              <span>CSS3</span>
+            </li>
+            <li class="skills__item">
+              <img src="assets/svg/icons/javascript.svg" alt="javascript-icon" width="50">
+              <span>JavaScript</span>
+            </li>
+            <li class="skills__item">
+              <img src="assets/svg/icons/github.svg" alt="github-icon" width="50">
+              <span>GitHub</span>
+            </li>
+            <li class="skills__item">
+              <img src="assets/svg/icons/figma.svg" alt="figma-icon" width="50">
+              <span>Figma</span>
+            </li>
+            <li class="skills__item">
+              <img src="assets/svg/icons/vs-code.svg" alt="vs-code-icon" width="50">
+              <span>VS Code</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="code-examples" id="examples">
+        <div class="code-examples__container">
+          <h2 class="code-examples__header">Code examples</h2>
+          <pre class="code-examples__pre">
+            <code class="code-examples__code">const multiply = (a, b) => a * b </code>
+          </pre>
+        </div>
+      </section>
+      <section class="work-experience" id="experience">
+        <div class="work-experience__container">
+          <h2 class="work-experience__header">Work experience</h2>
+          <ul class="work-experience__list">
+            <li class="work-experience__item">
+              <a href="https://evilique.github.io/MoGo/" class="work-experience__link">
+                <img src="assets/img/mogo.png" alt="Mogo" width="250">
+                <h3>MoGo</h3>
+              </a>
+            </li>
+            <li class="work-experience__item">
+              <a href="https://evilique.github.io/Evclid/" class="work-experience__link">
+                <img src="assets/img/evclid.png" alt="Evclid" width="250">
+                <h3>Evclid</h3>
+              </a>
+            </li>
+            <li class="work-experience__item">
+              <a href="https://evilique.github.io/Barbershop/" class="work-experience__link">
+                <img src="assets/img/barbershop.png" alt="Barbershop" width="250">
+                <h3>Barbershop</h3>
+              </a>
+            </li>
+            <li class="work-experience__item">
+              <a href="https://evilique.github.io/Nerds/" class="work-experience__link">
+                <img src="assets/img/nerds.png" alt="Nerds" width="250">
+                <h3>Nerds</h3>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="languages" id="languages">
+        <div class="languages__container">
+          <h2 class="languages__header">Languages</h2>
+          <ul class="languages__list">
+            <li class="languages__item">English (A2)</li>
+            <li class="languages__item">Russian (Native)</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footer__container container">
+      <ul class="footer__list">
+        <li class="footer__item">
+          <a href="https://rs.school/js/" class="footer__link">
+            <img class="footer__img" src="assets/svg/rss.svg" alt="rss-icon" width="120">
+          </a>
+        </li>
+        <li class="footer__item">
+          <p class="footer__year">© 2022</p>
+        </li>
+        <li class="footer__item">
+          <a href="https://github.com/Evilique" class="footer__link">
+            <img class="footer__img" src="assets/svg/icons/github-white.svg" alt="github-icon" width="50">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </body>
 
 </html>
