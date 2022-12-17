@@ -6,7 +6,7 @@
 ###### Discord nickname: `Danila Stepanov (@Evilique)`
 
 ## About me 
-I am always happy to learn new technologies, develop in IT. I know html, css, js at a basic level. I communicate well with people, I like to learn.
+I am always happy to learn new technologies, develop in IT. I know html, css, js at a basic level. I communicate well with people, I like to learn. My goal is to learn a pure JavaScript at a good level and learn the React library.
 
 ## My skills
 * HTML5, CSS3
@@ -20,7 +20,10 @@ I am always happy to learn new technologies, develop in IT. I know html, css, js
 ```const multiply = (a, b) => a * b ```
 
 ## Work experience
-* [CV](https://github.com/evilique/rsschool-cv)
+* [MoGo](https://evilique.github.io/MoGo/)
+* [Evclid](https://evilique.github.io/Evclid/)
+* [Barbershop](https://evilique.github.io/Barbershop/)
+* [Nerds](https://evilique.github.io/Nerds/)
 
 ## Languages
 * English (A2)
